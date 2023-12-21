@@ -9,7 +9,7 @@ import UIKit
 
 open class AppTableViewAnimation: UITableViewController {
     
-    public class func smoothAnimationOfCellsFromBottomToTop(from tableView: UITableView) {
+    open class func smoothAnimationOfCellsFromBottomToTop(from tableView: UITableView) {
         tableView.reloadData()
         
         let cells = tableView.visibleCells
